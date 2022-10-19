@@ -1,6 +1,6 @@
 # ProjetoNavbar
 
-It was used Angular with Tailwind. For backend I used an API called "newsapi.org" which I get the images and text from.
+It was used Angular with Tailwind and Angular Material. For backend I used an API called "newsapi.org" which I get the images and text from.
 
 Have a look on the interface:
 
