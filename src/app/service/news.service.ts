@@ -10,15 +10,15 @@ export class NewsService {
 
   constructor(private http: HttpClient) { }
 
-  getArticlesByID(source: String) {
-    return this.http.get("https://newsapi.org/v2/top-headlines?sources="+ source + "&apiKey=" + this.key);
+  artigosId(fonte: string) {
+    return this.http.get("https://newsapi.org/v2/top-headlines?sources="+ fonte + "&apiKey=" + this.key);
   }
 
-  initSources() {
+  iniciarSources() {
     return this.http.get("https://newsapi.org/v2/sources?language=en&apiKey="+this.key);
   }
 
-  initArticles() {
+  iniciarArtigos() {
     return this.http.get("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey="+ this.key);
   }
 }

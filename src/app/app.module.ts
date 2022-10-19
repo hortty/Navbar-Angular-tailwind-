@@ -42,6 +42,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
 import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -94,6 +95,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatTooltipModule,
     MatTreeModule,
     HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
